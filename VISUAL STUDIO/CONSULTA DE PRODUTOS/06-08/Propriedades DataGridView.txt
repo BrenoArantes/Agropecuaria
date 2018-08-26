@@ -1,0 +1,21 @@
+//ADICIONAR LINHAS
+AllowUserToAddRows = False
+//PERMISSÃO PARA EXCLUIR LINHAS DA GRID
+AllowUserToDeleteRows = False
+//REDIMENSIONAR COLUNAS DA GRID
+AllowUserToResizeColumns = False
+//REDIMENSIONAR LINHAS DA GRID
+AllowUserToResizeRows = False
+//LARGURA DAS COLUNAS
+AutoSizeColumnsMode = Fill
+//CABEÇALHO DAS COLUNAS
+ColumnHeadersHeightSizeMode = AutoSize
+//EXIBIÇÃO DA COLUNA QUE CONTÉM OS CABEÇALHOS DE LINHA
+RowHeadersVisible = False
+//SELECIONAR MAIS DE UMA LINHA OU COLUNA
+MultiSelect = False
+//SOMENTE LEITURA
+ReadOnly = True
+//MODO DE SELEÇÃO DAS CÉLULAS DA GRID
+SelectionMode = FullRowSelect
+
