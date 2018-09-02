@@ -74,7 +74,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(468, 86);
+            this.label14.Location = new System.Drawing.Point(498, 118);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(42, 20);
             this.label14.TabIndex = 63;
@@ -153,6 +153,7 @@
             this.label7.Size = new System.Drawing.Size(176, 20);
             this.label7.TabIndex = 51;
             this.label7.Text = "Codigo do Funcionário :";
+            this.label7.Visible = false;
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
@@ -167,7 +168,7 @@
             // 
             // bt_cad_funcionarios_cancelar
             // 
-            this.bt_cad_funcionarios_cancelar.Location = new System.Drawing.Point(591, 494);
+            this.bt_cad_funcionarios_cancelar.Location = new System.Drawing.Point(522, 484);
             this.bt_cad_funcionarios_cancelar.Name = "bt_cad_funcionarios_cancelar";
             this.bt_cad_funcionarios_cancelar.Size = new System.Drawing.Size(144, 92);
             this.bt_cad_funcionarios_cancelar.TabIndex = 46;
@@ -178,7 +179,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(366, 16);
+            this.label4.Location = new System.Drawing.Point(396, 48);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(144, 20);
             this.label4.TabIndex = 44;
@@ -188,7 +189,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(459, 48);
+            this.label3.Location = new System.Drawing.Point(489, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 20);
             this.label3.TabIndex = 42;
@@ -207,7 +208,7 @@
             // 
             this.txt_nome_funcionarios.Location = new System.Drawing.Point(190, 45);
             this.txt_nome_funcionarios.Name = "txt_nome_funcionarios";
-            this.txt_nome_funcionarios.Size = new System.Drawing.Size(233, 26);
+            this.txt_nome_funcionarios.Size = new System.Drawing.Size(200, 26);
             this.txt_nome_funcionarios.TabIndex = 39;
             this.txt_nome_funcionarios.TextChanged += new System.EventHandler(this.txt_nome_clientes_TextChanged);
             // 
@@ -234,12 +235,12 @@
             // 
             this.txt_funcao_funcionarios.Location = new System.Drawing.Point(192, 147);
             this.txt_funcao_funcionarios.Name = "txt_funcao_funcionarios";
-            this.txt_funcao_funcionarios.Size = new System.Drawing.Size(233, 26);
+            this.txt_funcao_funcionarios.Size = new System.Drawing.Size(198, 26);
             this.txt_funcao_funcionarios.TabIndex = 66;
             // 
             // mask_data_cadastro_funcionarios
             // 
-            this.mask_data_cadastro_funcionarios.Location = new System.Drawing.Point(516, 16);
+            this.mask_data_cadastro_funcionarios.Location = new System.Drawing.Point(546, 48);
             this.mask_data_cadastro_funcionarios.Mask = "00/00/0000";
             this.mask_data_cadastro_funcionarios.Name = "mask_data_cadastro_funcionarios";
             this.mask_data_cadastro_funcionarios.Size = new System.Drawing.Size(93, 26);
@@ -248,7 +249,7 @@
             // 
             // bt_cad_func_limpar
             // 
-            this.bt_cad_func_limpar.Location = new System.Drawing.Point(370, 494);
+            this.bt_cad_func_limpar.Location = new System.Drawing.Point(296, 484);
             this.bt_cad_func_limpar.Name = "bt_cad_func_limpar";
             this.bt_cad_func_limpar.Size = new System.Drawing.Size(152, 92);
             this.bt_cad_func_limpar.TabIndex = 70;
@@ -258,7 +259,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(122, 494);
+            this.button2.Location = new System.Drawing.Point(48, 484);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(163, 92);
             this.button2.TabIndex = 71;
@@ -282,6 +283,7 @@
             this.txt_cod_funcionarios.Name = "txt_cod_funcionarios";
             this.txt_cod_funcionarios.Size = new System.Drawing.Size(107, 26);
             this.txt_cod_funcionarios.TabIndex = 73;
+            this.txt_cod_funcionarios.Visible = false;
             // 
             // mask_telefone_funcionarios
             // 
@@ -293,7 +295,7 @@
             // 
             // mask_cpf_funcionarios
             // 
-            this.mask_cpf_funcionarios.Location = new System.Drawing.Point(516, 48);
+            this.mask_cpf_funcionarios.Location = new System.Drawing.Point(546, 80);
             this.mask_cpf_funcionarios.Mask = "000,000,000-00";
             this.mask_cpf_funcionarios.Name = "mask_cpf_funcionarios";
             this.mask_cpf_funcionarios.Size = new System.Drawing.Size(126, 26);
@@ -301,7 +303,7 @@
             // 
             // mask_rg_funcionarios
             // 
-            this.mask_rg_funcionarios.Location = new System.Drawing.Point(516, 83);
+            this.mask_rg_funcionarios.Location = new System.Drawing.Point(546, 115);
             this.mask_rg_funcionarios.Mask = "00,000,000-a";
             this.mask_rg_funcionarios.Name = "mask_rg_funcionarios";
             this.mask_rg_funcionarios.Size = new System.Drawing.Size(102, 26);
@@ -341,7 +343,7 @@
             // 
             // mask_celular_funcionarios
             // 
-            this.mask_celular_funcionarios.Location = new System.Drawing.Point(516, 115);
+            this.mask_celular_funcionarios.Location = new System.Drawing.Point(546, 147);
             this.mask_celular_funcionarios.Mask = "(00)00000-0000";
             this.mask_celular_funcionarios.Name = "mask_celular_funcionarios";
             this.mask_celular_funcionarios.Size = new System.Drawing.Size(135, 26);
@@ -350,7 +352,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(443, 115);
+            this.label18.Location = new System.Drawing.Point(473, 147);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(66, 20);
             this.label18.TabIndex = 82;
@@ -387,7 +389,7 @@
             // 
             this.groupBox2.Controls.Add(this.rd_btm_masculino);
             this.groupBox2.Controls.Add(this.rd_btm_feminino);
-            this.groupBox2.Location = new System.Drawing.Point(697, 18);
+            this.groupBox2.Location = new System.Drawing.Point(475, 356);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(191, 88);
             this.groupBox2.TabIndex = 85;
@@ -422,7 +424,7 @@
             this.Login.Controls.Add(this.txt_login_funcionarios);
             this.Login.Controls.Add(this.label9);
             this.Login.Controls.Add(this.txt_senha_funcionarios);
-            this.Login.Location = new System.Drawing.Point(28, 344);
+            this.Login.Location = new System.Drawing.Point(56, 356);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(342, 100);
             this.Login.TabIndex = 86;
@@ -433,7 +435,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 610);
+            this.ClientSize = new System.Drawing.Size(717, 596);
             this.Controls.Add(this.Login);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

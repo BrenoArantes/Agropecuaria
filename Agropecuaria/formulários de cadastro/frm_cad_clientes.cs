@@ -52,7 +52,6 @@ namespace Agropecuaria
                 cClientes.bairro = txt_bairro_clientes.Text;
                 cClientes.cidade = txt_cidade_clientes.Text;
                 cClientes.cpf = mask_cpf_clientes.Text;
-                cClientes.numero = Convert.ToInt32( txt_numero_clientes.Text);
                 cClientes.data_nascimento = Convert.ToDateTime(mask_data_nascimento_clientes.Text);
 
                 if (rd_bt_feminino.Checked)
@@ -131,6 +130,26 @@ private void frm_cad_clientes_Load(object sender, EventArgs e)
             if (!e.IsValidInput)
                 MessageBox.Show("Data inválida.", "Sistema de agropecuária",
                     MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void bt_cad_clientes_cancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mask_data_cadastro_clientes_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void endereço_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -113,6 +113,7 @@
             this.bt_cad_produtos_cadastrar.TabIndex = 8;
             this.bt_cad_produtos_cadastrar.Text = "Cadastrar";
             this.bt_cad_produtos_cadastrar.UseVisualStyleBackColor = true;
+            this.bt_cad_produtos_cadastrar.Click += new System.EventHandler(this.bt_cad_produtos_cadastrar_Click);
             // 
             // bt_cad_produtos_cancelar
             // 

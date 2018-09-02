@@ -32,4 +32,5 @@ C:\Users\breno\Desktop\trabalho renata\Agropecuaria\obj\Debug\Agropecuaria.frm_c
 C:\Users\breno\Desktop\trabalho renata\Agropecuaria\obj\Debug\Agropecuaria.frm_cons_clientes.resources
 C:\Users\breno\Desktop\trabalho renata\Agropecuaria\obj\Debug\Agropecuaria.frm_cons_produtos.resources
 C:\Users\breno\Desktop\trabalho renata\Agropecuaria\obj\Debug\agropecuaria.frmVenda35.resources
-C:\Users\breno\Desktop\trabalho renata\Agropecuaria\obj\Debug\Agropecuaria.form_cad_marca.resources
+C:\Users\breno\Desktop\trabalho renata\Agropecuaria\obj\Debug\Agropecuaria.frm_cad_marca.resources
+C:\Users\breno\Desktop\trabalho renata\Agropecuaria\obj\Debug\Agropecuaria.frm_rel_vendas.resources

@@ -149,13 +149,13 @@ namespace Agropecuaria
 
         private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Application.OpenForms.OfType<form_cad_marca>().Count() > 0)
+            if (Application.OpenForms.OfType<frm_cad_marca>().Count() > 0)
             {
                 MessageBox.Show("O Formulário já esta aberto", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
             {
-                form_cad_marca form_cad_marca = new form_cad_marca();
+                frm_cad_marca form_cad_marca = new frm_cad_marca();
                 form_cad_marca.MdiParent = this;
                 form_cad_marca.Show();
             }

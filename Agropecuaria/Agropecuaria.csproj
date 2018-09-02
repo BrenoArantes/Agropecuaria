@@ -116,11 +116,17 @@
     <Compile Include="formulários de consulta\frm_inicio.Designer.cs">
       <DependentUpon>frm_inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_cad_marca.cs">
+    <Compile Include="formulários de cadastro\frm_cad_marca.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_cad_marca.Designer.cs">
-      <DependentUpon>form_cad_marca.cs</DependentUpon>
+    <Compile Include="formulários de cadastro\frm_cad_marca.Designer.cs">
+      <DependentUpon>frm_cad_marca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_rel_vendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_rel_vendas.Designer.cs">
+      <DependentUpon>frm_rel_vendas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -151,8 +157,11 @@
     <EmbeddedResource Include="formulários de consulta\frm_inicio.resx">
       <DependentUpon>frm_inicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_cad_marca.resx">
-      <DependentUpon>form_cad_marca.cs</DependentUpon>
+    <EmbeddedResource Include="formulários de cadastro\frm_cad_marca.resx">
+      <DependentUpon>frm_cad_marca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_rel_vendas.resx">
+      <DependentUpon>frm_rel_vendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

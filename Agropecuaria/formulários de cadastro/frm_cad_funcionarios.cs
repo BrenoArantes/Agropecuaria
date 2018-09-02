@@ -167,14 +167,13 @@ namespace Agropecuaria
         {
             classe_funcionarios cfunc = new classe_funcionarios();
 
-            if (txt_nome_funcionarios.Text != "" && txt_cidade_funcionarios.Text != "" && mask_data_nascimento_funcionarios.Text != "" && mask_cpf_funcionarios.Text != "")
+            if (txt_nome_funcionarios.Text != "" && txt_cidade_funcionarios.Text != "" && mask_data_nascimento_funcionarios.Text != "" && mask_cpf_funcionarios.Text != ""&& txt_login_funcionarios.Text !="" && txt_senha_funcionarios.Text != "")
             {
                 cfunc.nome = txt_nome_funcionarios.Text;
                 cfunc.rua = txt_rua_funcionarios.Text;
                 cfunc.bairro = txt_bairro_funcionarios.Text;
                 cfunc.cidade = txt_cidade_funcionarios.Text;
                 cfunc.cpf = mask_cpf_funcionarios.Text;
-                cfunc.numero_casa = Convert.ToInt32( txt_numero_funcionarios.Text);
                 cfunc.data_nascimento = Convert.ToDateTime(mask_data_nascimento_funcionarios.Text);
                 cfunc.login_funcionario = txt_login_funcionarios.Text;
                 cfunc.senha_funcionario = txt_senha_funcionarios.Text;
@@ -236,6 +235,10 @@ namespace Agropecuaria
                 mask_cpf_funcionarios.Focus();
                 txt_funcao_funcionarios.BackColor = Color.DeepPink;
                 txt_funcao_funcionarios.Focus();
+                txt_login_funcionarios.BackColor = Color.DeepPink;
+                txt_login_funcionarios.Focus();
+                txt_senha_funcionarios.BackColor = Color.DeepPink;
+                txt_senha_funcionarios.Focus();
             }
 
 
